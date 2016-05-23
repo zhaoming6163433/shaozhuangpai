@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body{font-family:arial,Microsoft Yahei}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal;}
+ul,ol,li{list-style:none;}
+em,i{font-style:normal}
+strong,b{font-weight:normal}
+img{border:none}
+input,img{vertical-align:middle}
+a{text-decoration:none}
+input,select,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-appearance:none;border:0;border-radius:0}
+textarea:focus{outline:0}
+body{color:#333333;font-family:Microsoft YaHei;background:#FFF}
+html{-webkit-tap-highlight-color: transparent;overflow-x: hidden;height: 100%;min-width: 320px;overflow-x: auto;}
+html,body{color:#333;font-size:16px;-webkit-text-size-adjust:none}
+a{text-decoration:none}
+input, textarea, keygen, select, button, isindex, meter, progress {}
+
+/*public*/
+.weight { font-weight:bold;}
+.bg_white { background-color:#fff;}
+.pub_pad01 { padding-top:50px;}
+.pub_mar01 { margin-top:10px;}
+.pub_mar02 { margin-top:20px; margin-bottom:25px;}
+.color999,.colorfff {font-size:16px;}
+.color999 { color:#999; }
+.colorfff { color:#FFF;}
+.text_center { text-align:center;}
+/*end*/
+
+.content { margin:10px;}
+.details_area ul { padding:10px; }
+.details_area ul li.title_area { font-size:14px;font-weight:bold; text-align:center; background:url(../img/line_tit_area.png) top repeat-x;  height:40px; line-height:40px; padding-bottom:0; margin-bottom:0;}
+.details_area ul li.title_area .text { display:inline-block; background-color:#FFF; padding:0 15px;}
+.details_area ul li { padding-bottom:15px; background-size:10px auto; margin-bottom:10px;}
+.details_area ul li:last-child { margin-bottom:0; background:none;}
+.bg_yellow { background-color:#fed000;}
+.bg_slogin_luck { height:270px; margin-top:0; background:url(http://onemall.ufile.ucloud.com.cn/t/hybrid/img/bg_slogin_luck.jpg) center top no-repeat; background-size:auto 270px;}
+.bg_luck_b { height:200px; background:url(http://onemall.ufile.ucloud.com.cn/t/hybrid/img/bg_luck_b.jpg) center bottom no-repeat; background-size:auto 200px;}
+#outercont { position:relative; margin-top:-75px; margin-bottom:-120px; width:320px; height:320px; overflow:hidden; left:50%; margin-left:-160px; }
+#outer-cont {background:url(../img/activity-lottery-gif.gif) no-repeat center center;background-size:310px 310px;}
+
+
+/**
+ * 公共css
+ */
+body{font-size:16px;font-family: "Microsoft YaHei";box-sizing: border-box;}
+
+div,section{ box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+
+.noWarp{overflow:hidden;text-overflow:ellipsis;white-space: nowrap;}
+
+.maincontent{width: 1000px;margin: 0 auto;overflow: hidden;border-top: 1px solid #E8E8E8;}
+
+.mainincontent{padding:10px;width: 755px;min-height:500px;margin: 20px 10px 0px 10px;border-left: 1px solid #E8E8E8;border-right: 1px solid #E8E8E8;}
+
