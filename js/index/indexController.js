@@ -7,5 +7,5 @@ index.service('loadindexPage',function($http){
 });
 
 index.controller("indexCtr",["$scope",function($scope){
-    
+    console.log(111)
 }]);
