@@ -116,7 +116,6 @@ angular.module('Lib',[])
                 scope.gotopage = function(id,e){
                     $(e.currentTarget).parent().find('.selectmenu').removeClass('selectmenu');
                     $(e.currentTarget).addClass('selectmenu');
-                    window.location.href="http://www.baidu.com"
                 }
             }
         }
