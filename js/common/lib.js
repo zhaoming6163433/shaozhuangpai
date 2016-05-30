@@ -80,7 +80,7 @@ angular.module('Lib',[])
                     '<div id="maintopmenu" class="maintopmenu">'+
                         '<div>少壮派</div>'+
                         '<div>'+
-                            '<select>'+
+                            '<select class="menuselect">'+
                                 '<option value="0" selected="selected">北京</option>'+
                                 '<option value="1">上海</option>'+
                                 '<option value="2">广州</option>'+                    

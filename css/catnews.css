@@ -9,6 +9,8 @@
 
 .maintopmenu>div,.maintopmenu>section{display: inline-block;font-size: 0.9rem;display: inline-block;font-size: 0.9rem;width: 80px;text-align: center;line-height: 30px;height: 30px;color: #9A9A9A;}
 
+.maintopmenu .menuselect{color:#9A9A9A;border:none;}
+
 .contentmenu{margin-top:20px;padding-bottom:30px;float: right;width: 220px;background-color: #f8f8fa; border: 1px solid #e8e8e8;}
 
 .contentmenu>li>div{width: 20px;height: 20px;border-radius: 50%;border: 1px solid #b7b7b9;background-color: #dedee0;display: inline-block;position: absolute;margin-left: -30px;}

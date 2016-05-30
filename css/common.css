@@ -16,7 +16,7 @@ body{color:#333333;font-family:Microsoft YaHei;background:#FFF}
 html{-webkit-tap-highlight-color: transparent;overflow-x: hidden;height: 100%;min-width: 320px;overflow-x: auto;}
 html,body{color:#333;font-size:16px;-webkit-text-size-adjust:none}
 a{text-decoration:none}
-input, textarea, keygen, select, button, isindex, meter, progress {-webkit-writing-mode: horizontal-tb;font-size: 100%;outline: none;}}
+input, textarea, keygen, select, button, isindex, meter, progress { background-color: #ffffff;-webkit-writing-mode: horizontal-tb;font-size: 100%;outline: none;}}
 
 /*public*/
 .weight { font-weight:bold;}
