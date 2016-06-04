@@ -1,0 +1,78 @@
+/*登录框样式*/
+#login_body .logincontentout{ width: 100%;background-color: #e3e3e3;}
+
+.logincontentout input{ border: 1px solid #dfdfe0;height:35px;outline:block;width: 240px;padding-left: 15px;}
+
+.logincontentout input::-webkit-input-placeholder {color: #D0D0D0!important;}
+
+.logincontentout input:-moz-placeholder {color: #D0D0D0!important;}
+
+.logincontentout input::-moz-placeholder {color: #D0D0D0!important;}
+
+.logincontentout input:-ms-input-placeholder {color: #D0D0D0!important;}
+
+.logincontentout .inputdiv{ padding-top: 10px;text-align: center;}
+
+.logincontentout .logintop{ width: 100%;height: 50px;border-bottom: 2px solid #adadad;clear:both;min-width: 1000px;}
+
+.logincontentout .logincontent{ width: 1000px;margin: 0 auto;padding-top:30px;height: 590px;clear:both;}
+
+.loginselect{ border-bottom: 1px solid #d6d6d6;}
+
+.logincontentout .loginboxselect{ width: 100%;text-align: center;height: 60px;line-height: 70px;}
+
+.logincontentout .loginboxselect>div{ cursor: pointer;display: inline-block;width: 50px;color: #a0a0a0;height: 50px;margin: 0px 30px;}
+
+.logincontentout .loginbox{ text-align:center;background: #ffffff;float:left;width: 350px;height: 320px;border: 1px solid #b1b1b1;margin-left: 400px;border-radius: 5px;}
+
+.logincontentout .forgetpass{ float: right;margin-right: 45px;font-size: 0.9rem;margin-top: 8px;}
+
+.logincontentout .forgetpass>a{ color: #D0D0D0;}
+
+.logincontentout .L_Submit{ width: 260px;height: 42px; margin-top: 10px;border: 0;display: inline-block;overflow: hidden;vertical-align: middle;
+	line-height: 42px;font-size: 16px;font-weight: 700;color: #fff;background: #fd9564;border-radius: 3px;cursor: pointer;zoom: 1;}
+
+.logincontentout .weixinlogin{ color: #A9A8A8;margin-top: 25px; font-size: 0.9rem;}
+
+/*轮播样式*/
+#login_body #swipecode{ width: 100px;height: 100px;float: left;background-color: #ffffff;position: relative;}
+
+#swipecode .hd{ width: 100%;height: 0px;position: absolute;z-index: 1;bottom: 0px;text-align: center; }
+
+#swipecode .hd div{ display:inline-block; height:5px; padding:3px 5px; background-color:rgba(255,255,255,0.7); -webkit-border-radius:5px;
+ -moz-border-radius:5px; border-radius:5px; font-size:0; vertical-align:top;}
+
+#swipecode .hd ul{height:0px;}
+
+#swipecode .hd ul li{ background-color:#ffffff;display: inline-block;vertical-align: middle;margin: 4px;width: 7px;height: 10px;opacity: 1;
+	border: 1px solid #A2A0A0;border-raidus: 5px;-webkit-border-radius: 5px;-moz-border-radius: 3px;-o-border-radius: 3px;font-size: 0;  }
+
+#swipecode .hd ul .on{ background-color: #fd9564;opacity: 0.8; }
+
+#swipecode .bd{ position:relative; z-index:0; }
+
+#swipecode .bd li img{ width:100%;}
+
+#swipecode .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */ }
+
+/*顶部样式*/
+#login_body .logintopIn{ width: 1000px;margin: 0 auto;}
+
+#login_body .logintopIn>div{ display: inline-block;line-height: 50px;}
+
+#login_body .logintopIn>div:nth-child(1){ position: absolute;left: 50px;}
+
+#login_body .logintopIn>div:nth-child(1)>a:nth-child(1){ color:#a0a0a0;font-size: 1.2rem;}
+
+#login_body .logintopIn>div:nth-child(1)>a:nth-child(2){ color:#c0e77f;font-size: 0.8rem;margin-left:10px;}
+
+#login_body .logintopIn>div:nth-child(2){margin-left: 790px;}
+
+#login_body .logintopIn>div:nth-child(2)>a{ color:#a0a0a0;}
+
+/*底部样式*/
+#login_body .loginheader{ width: 100%;height: 70px;border-top: 1px solid #adadad;text-align: center;min-width: 1000px;}
+
+#login_body .loginheader>div{display:inline-block;color: #ABABAB;line-height: 70px;width: 200px;font-size:0.85rem;}
+
+#login_body .loginheader>div>a{ color: #ABABAB;}

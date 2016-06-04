@@ -16,7 +16,7 @@ body{color:#333333;font-family:Microsoft YaHei;background:#FFF}
 html{-webkit-tap-highlight-color: transparent;overflow-x: hidden;height: 100%;min-width: 320px;overflow-x: auto;}
 html,body{color:#333;font-size:16px;-webkit-text-size-adjust:none}
 a{text-decoration:none}
-input, textarea, keygen, select, button, isindex, meter, progress { background-color: #ffffff;-webkit-writing-mode: horizontal-tb;font-size: 100%;outline: none;}}
+input, textarea, keygen, select, button, isindex, meter, progress { background-color: #ffffff;-webkit-writing-mode: horizontal-tb;font-size: 100%;}}
 
 /*public*/
 .weight { font-weight:bold;}
@@ -56,3 +56,6 @@ div,section{ box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizi
 
 .mainincontent{padding:10px;width: 755px;min-height:500px;margin: 20px 10px 0px 10px;border-left: 1px solid #E8E8E8;border-right: 1px solid #E8E8E8;}
 
+.inputclosebtn{position: absolute;width: 20px;margin-top: 15px;margin-left: -20px;}
+
+.inputclosebtn img{display: none;margin: 0 auto;width: 90%;}

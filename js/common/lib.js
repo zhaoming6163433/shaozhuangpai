@@ -73,8 +73,8 @@ angular.module('Lib',[])
                 '<section>'+
                     '<div class="maxtopmenu">'+
                         '<div>'+
-                            '<span>下载APP</span>'+
-                            '<span>微信公众号</span>'+
+                            '<span><a href="">下载APP</a></span>'+
+                            '<span><a href="">微信公众号</a></span>'+
                         '</div>'+
                     '</div>'+
                     '<div id="maintopmenu" class="maintopmenu">'+
