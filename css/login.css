@@ -1,7 +1,7 @@
 /*登录框样式*/
 #login_body .logincontentout{ width: 100%;background-color: #e3e3e3;}
 
-.logincontentout input{ border: 1px solid #dfdfe0;height:35px;outline:block;width: 240px;padding-left: 15px;}
+.logincontentout input{ border: 1px solid #dfdfe0;height:35px;border-radius: 2px;width: 240px;padding-left: 15px;}
 
 .logincontentout input::-webkit-input-placeholder {color: #D0D0D0!important;}
 
@@ -17,13 +17,15 @@
 
 .logincontentout .logincontent{ width: 1000px;margin: 0 auto;padding-top:30px;height: 590px;clear:both;}
 
-.loginselect{ border-bottom: 1px solid #d6d6d6;}
+.loginselect{ position: absolute;left: 92px;bottom: 0;top: 50px;width: 3em;height: 2px;background: #d6d6d6;
+	-webkit-transition: left .15s ease-in;transition: left .15s ease-in;}
 
-.logincontentout .loginboxselect{ width: 100%;text-align: center;height: 60px;line-height: 70px;}
+.logincontentout .loginboxselect{ position:relative;width: 100%;text-align: center;height: 60px;line-height: 70px;}
 
 .logincontentout .loginboxselect>div{ cursor: pointer;display: inline-block;width: 50px;color: #a0a0a0;height: 50px;margin: 0px 30px;}
 
-.logincontentout .loginbox{ text-align:center;background: #ffffff;float:left;width: 350px;height: 320px;border: 1px solid #b1b1b1;margin-left: 400px;border-radius: 5px;}
+.logincontentout .loginbox{ text-align:center;background: #ffffff;float:left;width: 350px;
+	border: 1px solid #b1b1b1;margin-left: 400px;border-radius: 5px;padding-bottom: 30px}
 
 .logincontentout .forgetpass{ float: right;margin-right: 45px;font-size: 0.9rem;margin-top: 8px;}
 
@@ -34,6 +36,19 @@
 
 .logincontentout .weixinlogin{ color: #A9A8A8;margin-top: 25px; font-size: 0.9rem;}
 
+/*注册样式*/
+.loginbox .inputdiv #getcode{ cursor: pointer;font-size: 0.8em;color: #ffffff;background-color: #f4c3a4;border-radius: 3px;padding: 5px 0px 5px 0px;width: 90px;
+    display: inline-block;margin: 5px 0px 0px -95px;text-align: center;min-width: 75px;max-width: 100px;position: absolute;
+}
+.loginbox .registertypeout{ margin: 5px 0px;}
+
+.loginbox .registertype{ cursor: pointer;border: 1px solid #dfdfe0;display: inline;padding: 6px 45px;border-radius: 2px;margin: 0px 5px;color: #D0D0D0;font-size: 0.9rem;}
+
+.loginbox #agreeclause{ width:20px;}
+
+.loginbox .agreelable{color:#A9A8A8;}
+
+.loginbox .inputdivagree{ text-align: left;margin-left: 44px;}
 /*轮播样式*/
 #login_body #swipecode{ width: 100px;height: 100px;float: left;background-color: #ffffff;position: relative;}
 

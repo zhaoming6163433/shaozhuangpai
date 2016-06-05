@@ -11,50 +11,14 @@
 		<link rel="stylesheet" type="text/css" href="css/login.css?v=20160518"/>
 	</head>
 	<body id="login_body" ng-controller="loginCtr">
-		<div class="logintop">
-			<div class="logintopIn">
-				<div><a href="">少壮派</a><a href="">少壮不努力</a></div>
-				<div><a href="">下载App</a></div>
-			</div>
-		</div>
+		<login-top></login-top>
 		<div class="logincontentout">
 			<div class="logincontent">
-				<div id="swipecode">
-                        <div class="hd">
-                            <ul><li></li></ul>
-                        </div>
-                        <div class="bd">
-                            <ul>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                            </ul>
-                        </div>
-				</div>
-				<div class="loginbox">
-					<div class="loginboxselect">
-						<div class="loginselect" ng-click="selectlogin(0,$event)">登录</div>
-						<div ng-click="selectlogin(1,$event)">注册</div>
-					</div>
-					<div class="inputdiv">
-						<input type="tel"  maxlength="11" id="user" placeholder="手机号" />
-						<label class="inputclosebtn"><img src="img/clearinput.png" /></label>
-					</div>
-					<div class="inputdiv">
-						<input type="tel" maxlength="6" id="password" placeholder="验证码" />
-						<label class="inputclosebtn"><img src="img/clearinput.png" /></label>
-					</div>
-					<div class="forgetpass"><a href="">忘记密码</a></div>
-					<button type="submit" class="L_Submit" id="L_Submit"><span>登录</span></button>
-					<div class="weixinlogin"><a>微信登录</a></div>
-				</div>
+				<swipe-code></swipe-code>
+				<login-box></login-box>
 			</div>
 		</div>
-		<div class="loginheader">
-			<div><a href="">薪资绝对透明</a></div>
-			<div><a href="">团队兼职更安全</a></div>
-			<div><a href="">兼职也能做CEO</a></div>
-		</div>
+		<login-header></login-header>
 	</body>
     <script type="text/javascript" src="js/jquery/jquery-2.1.3.min.js?v=20160507" ></script>
 	<script type="text/javascript" src="js/angular/angular.js?v=20160507" ></script>

@@ -1,0 +1,47 @@
+<div class="loginbox">
+	<div class="loginboxselect">
+		<div ng-click="selectlogin(0)">登录</div>
+		<div ng-click="selectlogin(1)">注册</div>
+		<span class="loginselect"></span>
+	</div>
+	<div ng-show="login == 0">
+		<div class="inputdiv">
+			<input type="tel"  maxlength="11" id="loginphone" placeholder="手机号" tabindex="1"/>
+			<label class="inputclosebtn"><img src="img/clearinput.png" /></label>
+		</div>
+		<div class="inputdiv">
+			<input type="tel" maxlength="6" id="loginpassword" placeholder="验证码" autocomplete="off" tabindex="2"/>
+			<label class="inputclosebtn"><img src="img/clearinput.png" /></label>
+		</div>
+		<div class="forgetpass"><a href="">忘记密码</a></div>
+	</div>
+	<div ng-show="login == 1">
+		<div class="inputdiv">
+			<input type="tel"  maxlength="11" id="registerphone" placeholder="手机号" tabindex="1"/>
+			<label class="inputclosebtn"><img src="img/clearinput.png" /></label>
+		</div>
+		<div class="inputdiv">
+			<input type="tel" maxlength="6" id="registercode" placeholder="验证码" autocomplete="off" tabindex="2"/>
+			<label class="inputclosebtn"><img src="img/clearinput.png" /></label>
+			<div id="getcode"><span id="codetime"></span><span id="getcodeIn">获取验证码</span></div>
+		</div>
+		<div class="inputdiv">
+			<input type="password"  id="registerpass" placeholder="输入密码" autocomplete="off" tabindex="3" maxlength="40"/>
+			<label class="inputclosebtn"><img src="img/clearinput.png" /></label>
+		</div>
+		<div class="inputdiv">
+			<input type="password"  id="registeraginpass" placeholder="再次输入密码" autocomplete="off"/ tabindex="4" maxlength="40">
+			<label class="inputclosebtn"><img src="img/clearinput.png" /></label>
+		</div>
+		<div class="inputdiv registertypeout">
+			<div class="registertype">个人</div>
+			<div class="registertype">企业</div>
+		</div>
+		<div class="inputdiv inputdivagree">
+			<input id="agreeclause" type="checkbox">
+			<label class="agreelable" for="agreeclause">同意使用条款</label>
+		</div>
+	</div>
+	<button type="submit" class="L_Submit" id="L_Submit"><span ng-bind="loginbtntext"></span></button>
+	<div class="weixinlogin"><a>微信登录</a></div>
+</div>
