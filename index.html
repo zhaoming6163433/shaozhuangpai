@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="login">
+<html ng-app="index">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +8,23 @@
         <title></title>
 		<link rel="stylesheet" type="text/css" href="css/common.css?v=20160507"/>
 		<link rel="stylesheet" type="text/css" href="css/catnews.css?v=20160507"  >
-		<link rel="stylesheet" type="text/css" href="css/login.css?v=20160518"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css?v=20160518"/>
 	</head>
-	<body id="login_body" ng-controller="loginCtr">
-		<login-top></login-top>
-		<div class="logincontentout">
-			<div class="logincontent">
-				<swipe-code></swipe-code>
-				<login-box></login-box>
-			</div>
+	<body id="index_body" ng-controller="indexCtr">
+		<menu-top></menu-top>
+		<div class="maincontent">
+			<!--轮播-->
+			<swipe-code></swipe-code>
+			<div class="firstem"></div>
+			<!--职位&地区-->
+			<position-area></position-area>
+			<!--筛选em-->
+			<select-em></select-em>
 		</div>
-		<login-header></login-header>
 	</body>
     <script type="text/javascript" src="js/jquery/jquery-2.1.3.min.js?v=20160507" ></script>
 	<script type="text/javascript" src="js/angular/angular.js?v=20160507" ></script>
-	<script type="text/javascript" src="js/common/lib.js?v=20160507" ></script>
 	<script type="text/javascript" src="js/TouchSlide/TouchSlide.1.1.js?v=20160507" ></script>
-	<script type="text/javascript" src="js/login/loginController.js?v=20160507" ></script>
+	<script type="text/javascript" src="js/common/lib.js?v=20160507" ></script>
+	<script type="text/javascript" src="js/index/indexController.js?v=20160507" ></script>
 </html>

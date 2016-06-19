@@ -1,5 +1,5 @@
 /*顶部菜单*/
-.maxtopmenu{border-bottom: 1px solid #E8E8E8;font-size: 0.8rem;padding: 4px 0px 4px 0px;position: relative;}
+.maxtopmenu{border-bottom: 2px solid #E8E8E8;font-size: 0.8rem;padding: 4px 0px 4px 0px;position: relative;}
 
 .maxtopmenu>div{width: 100%;max-width: 1040px;min-width: 755px;margin: 0 auto;text-align: right;overflow: hidden;padding-right: 50px;}
 
